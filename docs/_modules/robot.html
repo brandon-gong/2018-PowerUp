@@ -48,6 +48,7 @@
 <span class="kn">from</span> <span class="nn">autonomous</span> <span class="k">import</span> <span class="n">Autonomous</span>
 <span class="kn">from</span> <span class="nn">sensors.imu</span> <span class="k">import</span> <span class="n">IMU</span>
 
+
 <div class="viewcode-block" id="Robot"><a class="viewcode-back" href="../robot.html#robot.Robot">[docs]</a><span class="k">class</span> <span class="nc">Robot</span><span class="p">(</span><span class="n">wpilib</span><span class="o">.</span><span class="n">IterativeRobot</span><span class="p">):</span>
 <div class="viewcode-block" id="Robot.robotInit"><a class="viewcode-back" href="../robot.html#robot.Robot.robotInit">[docs]</a>    <span class="k">def</span> <span class="nf">robotInit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">constants</span><span class="o">.</span><span class="n">load_control_config</span><span class="p">()</span>
@@ -75,9 +76,9 @@
             <span class="n">constants</span><span class="o">.</span><span class="n">lift_ids</span><span class="p">[</span><span class="s1">&#39;right&#39;</span><span class="p">]</span>
         <span class="p">)</span>
 
-        <span class="c1">#self.claw = lift.Claw(</span>
+        <span class="c1"># self.claw = lift.Claw(</span>
         <span class="c1">#    constants.claw_id</span>
-        <span class="c1">#)</span>
+        <span class="c1"># )</span>
 
         <span class="bp">self</span><span class="o">.</span><span class="n">imu</span> <span class="o">=</span> <span class="n">IMU</span><span class="p">(</span><span class="n">wpilib</span><span class="o">.</span><span class="n">SPI</span><span class="o">.</span><span class="n">Port</span><span class="o">.</span><span class="n">kMXP</span><span class="p">)</span></div>
 

@@ -18,7 +18,7 @@ automaton with these states:
 :Authors: Brandon Gong, Sebastian Mobo
 :Version: 0.0.1
 :Date: January 19, 2018
- """
+"""
 
 import wpilib
 from ctre.talonsrx import TalonSRX
